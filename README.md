@@ -6,7 +6,7 @@ This project utilizes the BERT (Bidirectional Encoder Representations from Trans
 ## Dataset
 
 The MIMIC2024 dataset is used for training and evaluation. It consists of text extracted from images, along with binary labels indicating the presence of the aforementioned categories of harmful content.
-
+* You can find more about dataset here: https://www.kaggle.com/datasets/aakash941/mimic-dataset
 ## Model
 
 The BERT base multilingual cased model is employed for sequence classification. It's fine-tuned on the MIMIC2024 dataset for each label category separately:
